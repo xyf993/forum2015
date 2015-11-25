@@ -1,0 +1,164 @@
+/*其他邀请报告人页面CSS样式*/
+body,html{
+	margin:0px auto;
+	padding: 0px auto;
+	width:100%;
+}
+.content{
+	margin:0px auto;
+	padding: 0px auto;
+}
+.content ul{
+	list-style-type: none;
+	margin:10px auto;
+	padding: 0px auto;
+}
+.content ul img{
+	width:190px;
+	height:auto;
+	margin:0px;
+	padding: 0px;
+}
+.chairman{
+	width:1000px;
+	height:300px;
+	border:1px solid lightblue;
+	border-radius: 20px;
+}
+.chairman li{
+	width:450px;
+	height:auto;
+	float:left;
+	margin:20px;
+}
+.chairman li img{
+	float:right;
+}
+.chairman li ul{
+	margin:0px;
+	padding: 0px;
+	float:left;
+	width:200px;
+	height: 280px;
+	list-style-type: none;
+}
+.chairman li ul h3{
+	background: lightblue;
+	width:200px;
+	height:45px;
+	border-radius: 10px;
+	text-align: center;
+	margin:0px;
+	padding:5px;
+}
+.chairman li ul p,.chairman li ul h4{
+	margin:0px;
+	padding: 0px;
+}
+
+/*副主席区域css*/
+.viceChairman{
+	width:1000px;
+	height:1450px;
+	border:1px solid lightblue;
+border-radius: 20px;
+}
+.viceChairman .vice{
+	width:1000px;
+	height: 50px;
+	text-align: center;
+	margin:0px auto;
+	padding: 0px auto;
+	position: relative;
+}
+.viceChairman .vice h3{
+	background: lightblue;
+	width:200px;
+	height:50px;
+	border-radius: 10px;
+	text-align: center;
+	margin:5px auto;
+	padding: 5px auto;
+}
+.viceChairman .vice span{
+	position: absolute;
+	left:600px;
+	top:26px;
+}
+.viceChairman li{
+	float:left;
+	width:220px;
+	height:auto;
+	margin:10px 15px;
+}
+.viceChairman li p,.viceChairman li img{
+	width:220px;
+	margin:3px;
+	padding:0px;
+}
+.meeting{
+	width:1000px;
+	height:460px;
+	border:1px solid lightblue;
+	list-style-type: none;
+	margin:10px auto;
+	padding: 0px auto;
+	border-radius: 20px;
+}
+.meeting li{
+	float:left;
+	width:460px;
+	height:420px;
+	margin:5px 20px;
+}
+.meeting li h3{
+	background: lightblue;
+	width:205px;
+	height:50px;
+	text-align: center;
+	border-radius: 10px;
+	margin:5px auto;
+}
+.meeting li ul{
+	float: left;
+	width:200px;
+	margin: 0px;
+	padding: 0px;
+}
+.meeting li img{
+	float:right;
+}
+.otherInvited{
+	width:1042px;
+	height:1650px;
+	border:1px solid lightblue;
+	border-radius: 20px;
+	margin:0px 10px;
+	padding:0px;
+}
+.otherInvited h3{
+	float:left;
+	width:1042px;
+	line-height:35px;
+	text-indent: 4em;
+	border-radius: 10px;
+	margin:0px;
+	padding: 0px;
+}
+.otherInvited li{
+	width:470px;
+	height:auto;
+	margin:5px 19px;
+	float:left;
+}
+.otherInvited li img{
+	float: left;
+	margin:2px;
+}
+.otherInvited li ul{
+	float:right;
+	width:210px;
+	height:auto;
+	margin:0px;
+	padding:0px;
+}
